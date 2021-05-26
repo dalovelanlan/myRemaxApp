@@ -10,20 +10,24 @@ export const wechat: WechatAppConfig = {
   pages,
   window: {
     navigationBarBackgroundColor: color,
-    navigationBarTitleText: 'Remax One Wechat',
+    navigationBarTitleText: 'My Book',
   },
   tabBar: {
-    color:'#FFF0F5',
-    selectedColor:'#DB7093',
+    color:'#333333',
+    selectedColor:'#93b5cf',
     backgroundColor:'#ffffff',
     list: [
       {
         "pagePath": "pages/index/index",
-        "text": "首页"
+        "text": "首页",
+        "iconPath":"images/no-select-book.png",
+        "selectedIconPath":"images/select-book.png"
       },
       {
         "pagePath": "pages/test/index",
-        "text": "测试"
+        "text": "测试",
+        "iconPath":"images/no-select-my.png",
+        "selectedIconPath":"images/select-my.png"
       }
     ]
   },

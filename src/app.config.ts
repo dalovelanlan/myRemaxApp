@@ -1,4 +1,4 @@
-const pages = ['pages/index/index',];
+const pages = ['pages/index/index','pages/test/index'];
 const color = '#282c34';
 
 import { AppConfig as WechatAppConfig } from 'remax/wechat';
@@ -11,6 +11,21 @@ export const wechat: WechatAppConfig = {
   window: {
     navigationBarBackgroundColor: color,
     navigationBarTitleText: 'Remax One Wechat',
+  },
+  tabBar: {
+    color:'#FFF0F5',
+    selectedColor:'#DB7093',
+    backgroundColor:'#ffffff',
+    list: [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/test/index",
+        "text": "测试"
+      }
+    ]
   },
 };
 

@@ -1,0 +1,30 @@
+.headerContainer {
+    height: 90px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerLeft {
+    display: flex;
+    flex: 1;
+
+    justify-content: center;
+
+}
+
+.headerCenter {
+    flex: 2;
+    display: flex;
+
+    justify-content: center;
+
+}
+
+.headerRight {
+    flex: 1;
+    display: flex;
+
+    justify-content: center;
+}

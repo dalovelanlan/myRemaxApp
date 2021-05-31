@@ -10,7 +10,7 @@ export const wechat: WechatAppConfig = {
   pages,
   window: {
     navigationBarBackgroundColor: color,
-    navigationBarTitleText: 'My Book',
+    navigationBarTitleText: '我的书架',
   },
   tabBar: {
     color:'#333333',
@@ -19,15 +19,15 @@ export const wechat: WechatAppConfig = {
     list: [
       {
         "pagePath": "pages/index/index",
-        "text": "首页",
-        "iconPath":"images/no-select-book.png",
-        "selectedIconPath":"images/select-book.png"
+        "text": "书库",
+        "iconPath": "images/no-select-book.png",
+        "selectedIconPath": "images/select-book.png"
       },
       {
         "pagePath": "pages/test/index",
-        "text": "测试",
-        "iconPath":"images/no-select-my.png",
-        "selectedIconPath":"images/select-my.png"
+        "text": "我的",
+        "iconPath": "images/no-select-my.png",
+        "selectedIconPath": "images/select-my.png"
       }
     ]
   },

@@ -8,7 +8,7 @@ const Index = () => {
 
     return (
         <View>
-
+            {/*测试新分支*/}
             <SearchInput/>
             {/*<HeaderBar headerCenter={<Text style={{fontSize: '40px'}}></Text>}/>*/}
             {/*<Text>{number}</Text>*/}

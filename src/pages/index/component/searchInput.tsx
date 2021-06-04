@@ -12,7 +12,7 @@ const SearchInput = (props: Props) => {
                 height: '65px',
                 borderTopLeftRadius: '30px',
                 borderBottomLeftRadius: '30px'
-            }}></View>
+            }}/>
             <View style={{
                 width: '60%',
                 backgroundColor: '#fafaf5',

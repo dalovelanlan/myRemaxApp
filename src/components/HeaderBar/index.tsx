@@ -3,6 +3,7 @@ import {Text, View} from 'remax/one';
 import styles from './index.css';
 
 
+
 type Props = {
     headerLeft?: Element,
     headerCenter: Element,

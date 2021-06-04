@@ -11,16 +11,16 @@
     "paths": {
       "@/*": [
         "./src/*"
-      ],
-      "@/components/*": [
-        "./src/components/*"
-      ],
-      "@/pages/*": [
-        "./src/pages/*"
-      ],
-      "@/utils/*": [
-        "./src/utils/*"
       ]
+//      "@/components/*": [
+//        "./src/components/*"
+//      ],
+//      "@/pages/*": [
+//        "./src/pages/*"
+//      ],
+//      "@/utils/*": [
+//        "./src/utils/*"
+//      ]
     },
     "lib": ["DOM", "ES2015"]
   },

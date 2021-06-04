@@ -1,31 +1,17 @@
 import * as React from 'react';
 import {View, Input} from 'remax/one';
+import Icon from 'weui-miniprogram/miniprogram_dist/icon/icon';
+import styles from '../index.less';
 
 
 type Props = {};
 const SearchInput = (props: Props) => {
     return (
-        <View style={{display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
-            <View style={{
-                backgroundColor: 'red',
-                width: '10%',
-                height: '65px',
-                borderTopLeftRadius: '30px',
-                borderBottomLeftRadius: '30px'
-            }}></View>
-            <View style={{
-                width: '60%',
-                backgroundColor: '#fafaf5',
-                borderBottomRightRadius: '30px',
-                borderTopRightRadius: '30px',
-                marginTop: '10px',
-                paddingTop: '10px',
-                paddingBottom: '10px',
-                marginBottom: '10px',
-                position: 'relative'
-            }}>
-                <Input placeholder={'请输入'}/>
+        <View className={styles.searchContainer}>
+            <View className={styles.icon}>
+                <Icon icon="search" type="field" color="#8E959E" size={20}/>
             </View>
+            <span className={styles.text}>搜索</span>
         </View>
     );
 };

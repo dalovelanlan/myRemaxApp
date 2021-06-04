@@ -1,2 +1,3 @@
 declare module '*.png';
-declare module '*.css';
+declare module '*.less';
+declare module 'weui-miniprogram/miniprogram_dist/icon/icon';

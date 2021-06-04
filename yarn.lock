@@ -7297,6 +7297,11 @@ websocket-extensions@>=0.1.1:
   resolved "https://registry.npm.taobao.org/websocket-extensions/download/websocket-extensions-0.1.4.tgz#7f8473bc839dfd87608adb95d7eb075211578a42"
   integrity sha1-f4RzvIOd/YdgituV1+sHUhFXikI=
 
+weui-miniprogram@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.npm.taobao.org/weui-miniprogram/download/weui-miniprogram-1.0.8.tgz#e7917c47a5d7e951b30694d939d0a2e5e005b274"
+  integrity sha1-55F8R6XX6VGzBpTZOdCi5eAFsnQ=
+
 which-boxed-primitive@^1.0.2:
   version "1.0.2"
   resolved "https://registry.nlark.com/which-boxed-primitive/download/which-boxed-primitive-1.0.2.tgz#13757bc89b209b049fe5d86430e21cf40a89a8e6"

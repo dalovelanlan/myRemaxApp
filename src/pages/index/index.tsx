@@ -1,13 +1,13 @@
 import React, {useState} from 'react';
 import {View, Text, Image, Button} from 'remax/one';
-import styles from './index.css';
+import styles from '@/pages/index/index.less';
 import SearchInput from '@/pages/index/component/searchInput';
 
 
 const Index = () => {
 
     return (
-        <View>
+        <View className={styles.pageContainer}>
             {/*测试新分支*/}
             <SearchInput/>
             {/*<HeaderBar headerCenter={<Text style={{fontSize: '40px'}}></Text>}/>*/}

@@ -10,7 +10,7 @@ export const wechat: WechatAppConfig = {
   pages,
   window: {
     navigationBarBackgroundColor: color,
-    navigationBarTitleText: '我的书架',
+    navigationBarTitleText: 'my system',
   },
   tabBar: {
     color:'#333333',

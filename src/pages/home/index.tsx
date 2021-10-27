@@ -1,44 +1,47 @@
-import React, {useState} from 'react';
-import {View, Text, Image, Button} from 'remax/one';
-import styles from '@/pages/home/index.less'
-import SearchInput from '@/pages/home/component/searchInput';
-
+import React, { useState } from "react";
+import { View, Text, Image, Button,TapEvent } from "remax/one";
+import {redirectTo,navigateTo} from 'remax/wechat'
+import styles from "@/pages/home/index.css";
+import GridView from "@/pages/home/component/gridView";
 
 const Index = () => {
 
-    return (
-      <View className={styles.pageContainer}>
-        <View className='grid grid-cols-3 gap-4 text-center align-middle'>
-          <View className='w-full flex-col flex items-center justify-center h-16 rounded-xl bg-gradient-to-r from-blue-200 to-blue-500'>
-            <Image
-              src={'http://r1l881ywq.hn-bkt.clouddn.com/light.png'}
-              className='w-full h-3_6'
-              mode='aspectFit'
-            />
-            <Text className='mt-1 font-mono tracking-wider text-xs text-gray-200 font-bold'>
-              开关
-            </Text>
-          </View>
-          <View className='w-full flex items-center justify-center h-16 rounded-xl'>
-            2
-          </View>
-          <View className='w-full flex items-center justify-center h-16 rounded-xl'>
-            3
-          </View>
-          <View className='w-full flex items-center justify-center h-16 rounded-xl'>
-            4
-          </View>
-          <View className='w-full flex items-center justify-center h-16 rounded-xl'>
-            5
-          </View>
-          <View className='w-full flex items-center justify-center h-16 rounded-xl'>
-            6
-          </View>
-          <View className='w-full flex items-center justify-center h-16 rounded-xl'>
-            7
-          </View>
-        </View>
+  const handleTap = ()=>{
+    redirectTo({
+      url: '/pages/switch/index',
+    });
+  }
+
+  return (
+    <View className={styles.pageContainer}>
+      <View className="grid grid-cols-3 gap-4 text-center align-middle">
+        <GridView
+          imageUrl="http://r1l881ywq.hn-bkt.clouddn.com/light.png"
+          title="开关"
+          onTap={handleTap}
+        />
+        <GridView
+          imageUrl="http://r1l881ywq.hn-bkt.clouddn.com/practice.png"
+          title="错题练习"
+        />
+        <GridView
+          imageUrl="http://r1l881ywq.hn-bkt.clouddn.com/idea.png"
+          title="主意"
+        />
+        <GridView
+          imageUrl="http://r1l881ywq.hn-bkt.clouddn.com/cooking.png"
+          title="菜谱"
+        />
+        <GridView
+          imageUrl="http://r1l881ywq.hn-bkt.clouddn.com/note%20%281%29.png"
+          title="笔记"
+        />
+        {/* <GridView
+          imageUrl="http://r1l881ywq.hn-bkt.clouddn.com/light.png"
+          title="开关"
+        /> */}
       </View>
-    )
+    </View>
+  );
 };
 export default Index;

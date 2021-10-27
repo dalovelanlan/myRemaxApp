@@ -1,4 +1,8 @@
-const pages = ['pages/home/index', 'pages/test/index']
+const pages = [
+  'pages/home/index', 
+  'pages/test/index',
+  'pages/switch/index'
+]
 const color = '#282c34';
 
 import { AppConfig as WechatAppConfig } from 'remax/wechat';

@@ -1,0 +1,16 @@
+.pageContainer {
+  padding: 2% 5% 5% 5%;
+  @apply bg-gray-200 h-screen
+}
+
+.page_switch_body{
+    @apply flex flex-col justify-center items-center
+}
+
+.page_switch_status{
+    @apply mt-10 text-center text-2xl font-mono font-bold
+}
+
+
+
+

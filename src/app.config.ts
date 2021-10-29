@@ -1,7 +1,11 @@
 const pages = [
-  'pages/home/index', 
+  'pages/home/index',
   'pages/test/index',
-  'pages/switch/index'
+  'pages/switch/index',
+  'pages/practice/index',
+  'pages/cooking/index',
+  'pages/note/index',
+  'pages/idea/index',
 ]
 const color = '#282c34';
 
